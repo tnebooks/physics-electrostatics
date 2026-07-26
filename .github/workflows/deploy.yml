@@ -35,6 +35,7 @@ jobs:
 
     - name: Build
       run: |
+        cd design-system
         npm i
         npm run build:questions
 
