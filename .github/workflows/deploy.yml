@@ -19,6 +19,10 @@ jobs:
     needs: call-workflow
 
     steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: dist
       - name: Deploy
         uses: appleboy/scp-action@master
         with:
