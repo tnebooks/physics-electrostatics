@@ -30,5 +30,4 @@ jobs:
           username: ${{ secrets.QUESTION_REPO_USER }}
           key: ${{ secrets.QUESTION_REPO_KEY }}
           target: ${{ secrets.QUESTION_REPO_WORKSHOP_ROOT }}
-          source: "design-system/dist/*"
-          strip_components: 2
+          source: "dist/*"
