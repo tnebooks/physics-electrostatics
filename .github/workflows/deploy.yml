@@ -16,6 +16,8 @@ jobs:
     uses: gurukulams/workshop/.github/workflows/build-question-repo.yml@main
     secrets: inherit # If the sub-workflow needs access to secrets
 
+  build:
+    runs-on: ubuntu-latest
   # Deployment job
     - name: Deploy
       uses: appleboy/scp-action@master
