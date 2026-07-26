@@ -23,6 +23,7 @@ jobs:
     - name: Prepare
       run: |
         git clone https://github.com/gurukulams/design-system.git design-system
+        cp design-system/package-lock.json .
         cd design-system
         cp -rf ../questions questions
 
