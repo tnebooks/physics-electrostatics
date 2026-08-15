@@ -1,4 +1,5 @@
 ---
+tags: ["JEE Main", "2025"]
 choices:
   - "A is true but R is false"
   - "Both A and R are true and R is the correct explanation of A"
@@ -16,7 +17,5 @@ answers:
 **Reason R:** Electrostatic potential inside a uniformly charged spherical shell is constant and is same as that on the surface of the shell.
 
 Choose the correct answer from the options given below.
-
-*(JEE Main 2025)*
 
 #### Inside a uniformly charged spherical shell, E = 0 (Gauss's law), so potential is constant throughout. Work done = q·ΔV = 0. R correctly explains A.
