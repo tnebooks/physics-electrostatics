@@ -18,6 +18,11 @@ jobs:
       pages: write
     uses: gurukulams/workshop/.github/workflows/build-question-repo.yml@main
     secrets: inherit
+  steps:
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./dist
 
   deploy:
     environment:
